@@ -1,0 +1,69 @@
+body h1{
+    background-color: rgb(107, 107, 235);
+}
+
+html body{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 400px;
+}
+
+#teams table{
+   border: solid 2px black;
+   margin-right: 50px;
+}
+tr{
+    border: 1px solid black;
+}
+
+#teams td:nth-child(odd){
+    border: 1px solid black;
+    background-color: rgb(219, 121, 104);
+}
+
+#teams td:nth-child(even){
+    border: 1px solid black;
+    background-color: rgb(104, 140, 219);
+}
+
+#input1{
+    position: relative;
+    margin-bottom: 1em;
+    width: 25em;
+}
+#btn1 {
+    position: relative;
+    left: 26em;
+    top: 2.7em;
+    margin-bottom: 1em;
+    width: 10em;
+}
+
+
+
+#teams table > tr th{
+    background-color: solid green;
+}
+
+#players tr:nth-child(odd){
+    background-color: limegreen;
+}
+
+#players td{
+    border: 1px solid black;
+    table-layout: fixed 10em;
+}
+
+th{
+    border: 1px solid black;
+}
+#btn2{
+    width: 150px;
+    margin-top: 3em;
+    margin-bottom: 5px;
+}
+/*# sourceMappingURL=index.f2d731b0.css.map */
